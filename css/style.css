@@ -46,7 +46,7 @@ header{
 }
 .welcome{
     background-image: url(/img/biru.jpg);
-    background-size:cover ;
+    background-size:cover;
     background-repeat:no-repeat ;
     height: 100vh;
     color: white;
@@ -201,7 +201,7 @@ header{
     justify-content: right;
 }
 footer{
-    background-color: #410155;
+    background-color:black;
     padding: 14px 50px;
     width: 100%;
     height: 50px;
