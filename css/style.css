@@ -1,16 +1,6 @@
-header{
+/* header{
     /* background-color:#410155;
-    padding: 14px 40px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-    position: fixed;
-    
-    
-}
-
+    padding: 14px 40px; *  
 /* .header-logo  img{
     width: 80px;
     height: 80px;
@@ -44,14 +34,17 @@ header{
     
     
 }
-.welcome{
-    background-image: url(/img/biru.jpg);
+
+/* .welcome{ */
+    /* background-image: url(/img/biru.jpg);
     background-size:cover;
     background-repeat:no-repeat ;
     height: 100vh;
     color: white;
-    font-family: 'Newsreader', serif;
-}
+    font-family: 'Newsreader', serif; */
+    /* max-height: 2000px;
+    transition: all 1s ease;
+} */
 .title{
     padding-top: 350px;
     text-align: center;
@@ -200,6 +193,8 @@ header{
     display: flex;
     justify-content: right;
 }
+
+
 footer{
     background-color:black;
     padding: 14px 50px;

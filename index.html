@@ -10,7 +10,19 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
-   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    pause: 7000,
+                });
+            });
+    </script>
+    　　
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,24 +41,25 @@
           </div>
         </div>
       </nav>
-<header>
+      <div class="slider">
+        <img src="img/DSCN0671.JPG" width="500" height="600" alt="">
+        <img src="img/20100707153919.bmp" width="500" height="600" alt="">
+        <img src="img/2181975_s.jpg" width="500" height="600" alt="">
+        <img src="img/1107527_s.jpg" width="500" height="600" alt="">
+        </div>  
     <!-- <div class="header-logo">
         <img src="img/Gdenki .png" alt="logo">
     </div> -->
     <!-- <div class="header-left">
         <h1>Services that please the local people</h1>
     </div> -->
-    <div class="header-right">
+    <!-- <div class="header-right"> -->
         <!-- <ul class="nav">
         <li><a href="#事業内容">事業内容</a></li>
         <li><a href="#会社概要">会社概要</a></li>
     </ul> -->
-</div>
-</header>
-<main class="welcome">
-    <h1 class="title">Hight Value Added.</h1>
-</main>
-
+  
+    
 <section id="事業内容">  
     <h2 class="title1">事業内容</h2>
     <p class="onebar">
