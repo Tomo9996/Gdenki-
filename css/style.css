@@ -35,6 +35,9 @@
     
 }
 
+.slider img{
+    padding: 0 100px;
+}
 /* .welcome{ */
     /* background-image: url(/img/biru.jpg);
     background-size:cover;
