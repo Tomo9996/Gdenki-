@@ -12,7 +12,10 @@
     padding-top: 10px;
     font-family: cursive;
     float: left; */
-
+* {
+        margin: 0;
+        padding: 0;
+}
 .nav {
     display: flex;
     flex-direction: row;
@@ -36,8 +39,16 @@
 }
 
 .slider img{
-    padding: 0 100px;
+    padding: 0 150px;
+
 }
+@media (max-width:780px) {
+    .slider img{
+        padding: 50px 10px;
+        
+    }
+}
+
 /* .welcome{ */
     /* background-image: url(/img/biru.jpg);
     background-size:cover;
